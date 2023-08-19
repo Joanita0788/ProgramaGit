@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Comidas Saludables</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #666;
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos específicos para tamaños pequeños de pantalla */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .post {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Comidas Saludables</h1>
+    </header>
+
+    <nav>
+        <a href="#receta1">Receta de Ensalada de Quinoa</a>
+        <a href="#receta2">Receta de Batido de Frutas</a>
+    </nav>
+
+    <div class="container">
+        <div class="post" id="receta1">
+            <h2>Receta de Ensalada de Quinoa</h2>
+            <p>La ensalada de quinoa es una opción deliciosa y saludable llena de proteínas y nutrientes.</p>
+            <p>Ingredientes:</p>
+            <ul>
+                <li>1 taza de quinoa cocida</li>
+                <li>Verduras frescas (lechuga, tomate, pepino, etc.)</li>
+                <li>Aceite de oliva y vinagre balsámico</li>
+                <li>Sal y pimienta al gusto</li>
+            </ul>
+            <p>¡Preparación fácil y rápida para una comida nutritiva!</p>
+        </div>
+
+        <div class="post" id="receta2">
+            <h2>Receta de Batido de Frutas</h2>
+            <p>Disfruta de un batido refrescante y lleno de vitaminas.</p>
+            <p>Ingredientes:</p>
+            <ul>
+                <li>1 plátano maduro</li>
+                <li>1 taza de fresas</li>
+                <li>1/2 taza de yogur natural</li>
+                <li>1/2 taza de leche de almendras</li>
+                <li>Miel al gusto</li>
+            </ul>
+            <p>Mezcla todos los ingredientes en una licuadora y ¡listo para servir!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
